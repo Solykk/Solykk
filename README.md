@@ -59,7 +59,7 @@ public class CV {
         return "DevOps basics, “Prometheus”\n" +
                 "English Pre-Intermediate, “Green Forest”\n" +
                 "Java programming, “JuJa”\n" +
-                "Java programming, “IT-Center”\n"
+                "Java programming, “IT-Center”\n";
     }
 
     @Ukrainian("native")
@@ -68,7 +68,7 @@ public class CV {
         return "Donetsk National Technical University\n" +
                 "Specialist, Enterprise management 2006 - 2010\n" +
                 "Donetsk National Technical University\n" +
-                "Control and automation systems 2004 - 2006\n"
+                "Control and automation systems 2004 - 2006\n";
     }
 }
 ```
