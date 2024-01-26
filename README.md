@@ -30,28 +30,27 @@ public class CV {
         public List<Project> projects() {
             return Stream.of(
                 new Project("Tyresnet / www.tyres.net", new WorkRange(Month.MARCH, 2021, Month.JANUARY, 2024),
-                        "Marketplace for tires and wheels. I joined a multi-module and diverse technological project " +
-                        "where my main responsibilities were improving the existing one, implementing " +
-                        "new functionalities, correcting errors and refactoring the code."),
+                    "Marketplace for tires and wheels. I joined a multi-module and diverse technological project " +
+                    "where my main responsibilities were improving the existing one, implementing " +
+                    "new functionalities, correcting errors and refactoring the code."),
                 new Project("VA Recorder", new WorkRange(Month.MARCH, 2020, Month.APRIL, 2021),
-                        "The VA Recorder project is a cross-platform desktop application for video and audio capture, " +
-                        "event logging, and the ability to transfer saved data to external media. Participated in " +
-                        "all stages of development. The main responsibility was the implementation of the above " +
-                        "functionality, as well as the implementation of the administration, licensing and " +
-                        "product update server."),
+                    "The VA Recorder project is a cross-platform desktop application for video and audio capture, " +
+                    "event logging, and the ability to transfer saved data to external media. Participated in " +
+                    "all stages of development. The main responsibility was the implementation of the above " +
+                    "functionality, as well as the implementation of the administration, licensing and " +
+                    "product update server."),
                 new Project("Payment Method", new WorkRange(Month.MARCH, 2019, Month.APRIL, 2020),
-                        "Took part in all stages of project creation for some banks with limited access to internet banking."),
+                    "Took part in all stages of project creation for some banks with limited access to internet banking."),
                 new Project("Reifentest / www.reifentest.com", new WorkRange(Month.NOVEMBER, 2018, Month.MARCH, 2019),
-                        "A portal for collecting tire reviews. I joined a project where my task included improving " +
-                        "existing functions, fixing errors and refactoring the code."),
+                    "A portal for collecting tire reviews. I joined a project where my task included improving " +
+                    "existing functions, fixing errors and refactoring the code."),
                 new Project("Payment Gateway", new WorkRange(Month.SEPTEMBER, 2017, Month.SEPTEMBER, 2018),
-                        "Participated in all stages of development, starting from the concept to its successful " +
-                        "implementation. The main responsibility was the development of the \"core\", which included " +
-                        "the implementation of another payment gateway's API and the creation of its own API with " +
-                        "the possibility of integrating direct payment methods. In addition, he participated in " +
-                        "the development and implementation of the administrative interface, which included " +
-                        "the management and monitoring of payment transactions, etc."))
-                        .toList();
+                    "Participated in all stages of development, starting from the concept to its successful " +
+                    "implementation. The main responsibility was the development of the \"core\", which included " +
+                    "the implementation of another payment gateway's API and the creation of its own API with " +
+                    "the possibility of integrating direct payment methods. In addition, he participated in " +
+                    "the development and implementation of the administrative interface, which included " +
+                    "the management and monitoring of payment transactions, etc.")).toList();
         }
     }
 
