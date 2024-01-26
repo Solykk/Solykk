@@ -12,15 +12,15 @@
 @JavaDeveloper
 public class CV {
 
-    public enum SoftSkils {
-        Java, JavaFx, JavaScript, TypeScript, SQL, Spring(Boot, Web, MVC, Data, Security, AOP, Batch),
+    public enum SoftSkills {
+        Java, JavaFx, JavaScript, TypeScript, SQL, Spring_Boot_Web_MVC_Data_Security_AOP_Batch,
         Postgres, H2, IoC, SOLID, Docker, Kubernetes, Maven,  Liquibase, Hibernate, JDBC, JSP, JPA,
         JSON, XML, CSV, HTML, Freemarker, Thymeleaf, Selenium, Nginx, SLF4J, JWT, Git, GitHub, GitLab,
-        Jenkins, Intellij IDEA, REST APIs, Swagger, Restful Web Services, JHipster, JUnit, Mockito,
+        Jenkins, Intellij_IDEA, REST_APIs, Swagger, Restful_Web_Services, JHipster, JUnit, Mockito,
         Angular, React
-        }
+    }
 
-    static class WorkExpirience implements Projects {
+    static class WorkExperience implements Projects {
 
         public final static String company = "Corside Group";
         public final static String position = "Java Developer";
