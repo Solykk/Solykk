@@ -4,20 +4,18 @@
  * @location Kyiv, Ukraine
  * @email dmitriy.lyashenko.java@gmail.com
  * @phone (095) 812-57-80
- * @bio Experienced and creative developer with 7+ years of experience in project planning, implementation and
- * implementation in various areas of software. I am looking for opportunities for development, gaining new experience
- * and ready to learn new technologies. I prefer projects starting "from scratch"
- * and projects related to the field of artificial intelligence.
+ * @bio Experienced and creative developer with 7+ years of experience in project planning,
+ * realization and implementation in various areas of software.
+ * I'm looking for opportunities for development and gaining new experience with mastering the latest technologies.
  */
 @JavaDeveloper
 public class CV {
 
     public enum SoftSkills {
-        Java, JavaFx, JavaScript, TypeScript, SQL, Spring_Boot_Web_MVC_Data_Security_AOP_Batch,
-        Postgres, H2, IoC, SOLID, Docker, Kubernetes, Maven,  Liquibase, Hibernate, JDBC, JSP, JPA,
-        JSON, XML, CSV, HTML, Freemarker, Thymeleaf, Selenium, Nginx, SLF4J, JWT, Git, GitHub, GitLab,
-        Jenkins, Intellij_IDEA, REST_APIs, Swagger, Restful_Web_Services, JHipster, JUnit, Mockito,
-        Angular, React
+        Java, Spring(Boot, Web, MVC, Data, Security, AOP, Batch), JavaFx, JDBC, JSP, JPA, JWT, Liquibase, Hibernate,
+        Freemarker, Thymeleaf, SLF4J, JSON, XML, CSV, JUnit, Mockito, Selenium, JavaScript, TypeScript, React,
+        Angular, SQL, Postgres, H2, HTML, Maven, Docker, Kubernetes, Git, Swagger, Nginx, Jenkins, GitHub,
+        GitLab, REST APIs, Restful Web Services, SOLID
     }
 
     static class WorkExperience implements Projects {
@@ -52,13 +50,6 @@ public class CV {
                     "the development and implementation of the administrative interface, which included " +
                     "the management and monitoring of payment transactions, etc.")).toList();
         }
-    }
-
-    public static String courses() {
-        return "DevOps basics, “Prometheus”\n" +
-                "English Pre-Intermediate, “Green Forest”\n" +
-                "Java programming, “JuJa”\n" +
-                "Java programming, “IT-Center”\n";
     }
 
     @Ukrainian("native")
